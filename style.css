@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-align: center;        
+    background-color: rgb(33, 33, 62);
+}
+
+.input{ 
+    margin-top: 20px;
+    height: 40px;
+    width: 280px;
+    font-weight: bolder;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color:  rgb(235, 220, 220);
+    cursor: pointer;
+}
+.input::placeholder {
+    color: rgb(144, 134, 134);
+    font-weight: 700;
+}
+.add{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(224, 141, 16);
+    cursor: pointer;
+
+}
+p{
+    font-size: 20px;
+}
+.group{
+    height: 80px;
+    width: 700px;
+    position:relative;
+    top: 50px;
+    left: 450px;
+    background: #302a2a;
+    border-radius: 20px;
+    border: 2px solid;
+    border-style: none;
+    opacity: 100;
+    color: rgba(32, 174, 169, 0.714);
+    font-size: 30px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 800;
+    margin: 0 10px;
+    padding-left: 8px;
+    margin-top: 10px;
+    overflow-wrap: break-word;
+
+}
+.part {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer; 
+    flex-grow: 1;
+    margin-right: 5px;
+}
+ .p1{
+    font-size: 25px;
+}
+
+.checkbox{
+    width: 50px;
+    height: 30px;
+    order: -1; 
+    cursor: pointer;
+    /* margin-left: -40px; */
+    
+}
+.msg{
+    height:50px;
+    width: 500px;
+    position:relative ;
+    left: 530px ;
+    font-size: 23px;
+    font-weight: 600;
+    text-align: left;
+    color: rgb(210, 198, 198);
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(119, 103, 103);
+    border-radius: 20px;
+    border: none;
+    /* background-color: #fff; */
+ 
+}
